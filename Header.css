@@ -1,0 +1,64 @@
+header {
+    text-align: center;
+    background: url("Pictures/Reno_Beach.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: "Comic Sans MS", Georgia, sans-serif; 
+    color: #FFF;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+}
+.header-img {
+    width: 160px;
+    border: 7px #FFF solid;
+    border-radius: 20%;
+    margin: 40px 0px 0px 0px ;
+}
+.header-title-link {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    width: 340px;
+    margin: auto;
+}
+.header-h1 {
+    font-size:60px;
+}
+.header-h2 {
+    position: relative;
+    top: -35px;
+}
+.header-ul {
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+}
+.header-li {
+    display: inline;
+    padding: 0px 12px;
+}
+.header-categorylink {
+    color: white;
+    font-size: 16px;
+    text-shadow: none;
+}
+@media only screen and (min-width: 1450px) {
+    .title-recolor {
+        color: #2F4F4F;
+        text-shadow: none;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .header-title-link {
+        display: inline;
+    }
+    .header-h1 {
+        font-size: 40px;
+    }
+    .header-h2 {
+        font-size: 18px;
+        top: -25px;
+    }
+	.header-li {
+		display: block;
+		padding: 7px 0px;
+	}
+}
